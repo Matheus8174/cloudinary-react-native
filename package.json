@@ -26,7 +26,6 @@
   ],
   "scripts": {
     "test": "jest",
-    "preinstall": "npx npm-force-resolutions",
     "typecheck": "tsc --noEmit",
     "lint": "eslint \"**/*.{js,ts,tsx}\"",
     "prepack": "bob build",
